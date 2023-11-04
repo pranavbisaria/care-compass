@@ -1,10 +1,7 @@
 package com.carecompass.models;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -20,7 +17,7 @@ import java.util.stream.Collectors;
 
 @Entity
 @NoArgsConstructor
-@Getter@Setter
+@Data
 @AllArgsConstructor
 @Cacheable
 @org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
