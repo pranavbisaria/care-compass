@@ -1,7 +1,7 @@
 package com.carecompass.Config;
-import com.healthive.Security.CustomUserDetailService;
-import com.healthive.Security.JwtAuthenticationEntryPoint;
-import com.healthive.Security.JwtAuthenticationFilter;
+import com.carecompass.Security.CustomUserDetailService;
+import com.carecompass.Security.JwtAuthenticationEntryPoint;
+import com.carecompass.Security.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

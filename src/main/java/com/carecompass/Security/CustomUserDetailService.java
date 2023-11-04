@@ -1,5 +1,5 @@
 package com.carecompass.Security;
-import com.carecompass.exceptions.ResourceNotFoundException;
+import com.carecompass.Exceptions.ResourceNotFoundException;
 import com.carecompass.Repository.UserRepo;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
