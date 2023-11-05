@@ -1,7 +1,5 @@
 package com.carecompass.payloads;
 
-import com.healthive.Models.Post;
-import com.healthive.Models.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

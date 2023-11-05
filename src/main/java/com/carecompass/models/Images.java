@@ -16,4 +16,8 @@ public class Images {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer Id;
     private String ImageUrl;
+
+    public Images(String ImageUrl) {
+        this.ImageUrl = ImageUrl;
+    }
 }

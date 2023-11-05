@@ -22,7 +22,7 @@ public class OTPService {
                 "\nThe One Time Password is valid for the next 10 minutes."+
                 "\n(This is an auto generated email, so please do not reply back.)" +
                 "\nRegards," +
-                "\nTeam HealthHive";
+                "\nTeam Care Compass";
         String to = email;
         this.emailService.sendEmail(subject, message, to);
         return otpCheck;
@@ -35,7 +35,7 @@ public class OTPService {
                 "\nYour personal health care partner always ready to serve from your smartphone" +
                 "\n(This is an auto generated email, so please do not reply back.)" +
                 "\nRegards," +
-                "\nTeam HeathHive";
+                "\nTeam Care Compass";
         String to = email;
         this.emailService.sendEmail(subject, message, to);
     }
@@ -54,8 +54,8 @@ public class OTPService {
                     "\nThe One Time Password is valid for the next 10 minutes." +
                     "\n(This is an auto generated sms, so please do not reply back.)" +
                     "\nRegards," +
-                    "\nTeam HeathHive" +
-                    "\ncarecompassforall@gmail.com";
+                    "\nTeam Care Compass" +
+                    "\nteamcarecompass@gmail.com";
             Message message = Message.creator(new com.twilio.type.PhoneNumber(number), new com.twilio.type.PhoneNumber(twilioConfig.getFromNumber()), myMessage).create();
             System.out.println(message);
         }
