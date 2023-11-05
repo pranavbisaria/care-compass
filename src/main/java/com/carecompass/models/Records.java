@@ -17,7 +17,7 @@ public class Records {
     private Long id;
     private String name;
     @JsonIgnore
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne()
     private User user;
     private String location;
     private String from;

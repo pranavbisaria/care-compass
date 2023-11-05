@@ -28,9 +28,9 @@ public class OTPService {
         return otpCheck;
     }
     public void SuccessRequest(String email, String name){
-        String subject = "Successfully registered on HealthHive";
+        String subject = "Successfully registered on Care Compass";
         String message = "Dear " + name + "," +
-                "\nThank you for registering on ShopIT" +
+                "\nThank you for registering on Care Compass" +
                 "\nNow enjoy sharing the data without any data loss risk, with blockchain based HealthHive"+
                 "\nYour personal health care partner always ready to serve from your smartphone" +
                 "\n(This is an auto generated email, so please do not reply back.)" +
